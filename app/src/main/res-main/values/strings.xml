@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Artists</string>
+    <string name="title_activity_main">Исполнители</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="artists_empty_text">Список исполнителей пуст</string>
+    <string name="artists_list_item_name_default_value">Name</string>
+    <string name="artists_list_item_genres_default_value">Genres</string>
+    <string name="artists_list_item_tracksAndAlbums_default_value">TracksAndAlbums</string>
+    <string name="title_singers">Исполнители</string>
+    <string name="biografy">Биография</string>
+    <string name="albums_and_tracks_default_value">Albums and Tracks</string>
+    <string name="description_default_value">Описание</string>
+    <string name="artists_hint_text">Свайпните вниз, чтобы обновить данные</string>
+</resources>

@@ -1,0 +1,60 @@
+<ScrollView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".artist_preview_screen.view.ArtistPreviewFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/artistCover"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/biografy"
+        android:id="@+id/titleBiografy"
+        android:layout_below="@+id/artistAlbumsAndTracks"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/albums_and_tracks_default_value"
+        android:id="@+id/artistAlbumsAndTracks"
+        android:layout_below="@+id/artistGenres"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="genres_default_value"
+        android:id="@+id/artistGenres"
+        android:layout_below="@+id/artistCover"
+        android:layout_margin="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/description_default_value"
+        android:id="@+id/artistDescription"
+        android:layout_below="@+id/titleBiografy"
+        android:inputType="textMultiLine"
+        android:layout_marginLeft="16dp"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
+</ScrollView>
